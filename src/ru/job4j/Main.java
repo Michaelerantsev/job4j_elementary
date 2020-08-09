@@ -1,7 +1,10 @@
 package ru.job4j;
 
 public class Main {
-    public static void main (String[] args) {
+    @SuppressWarnings("checkstyle:MethodParamPad")
+    public static void main (String [] args) {
+
         System.out.println("Hello new world");
+
     }
 }
