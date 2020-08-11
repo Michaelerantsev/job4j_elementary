@@ -5,15 +5,16 @@ public class Converter {
         int rsl = value / 70;
         return rsl;
     }
-    public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(280);
-        int in = 280;
-        int expected = 4;
-        int out = rubleToEuro(in);
-        boolean passed = expected == out;
-        System.out.println("280 rubles are " + euro + " euro.");
-        System.out.println("280 rubles are 2. Test result : " + passed);
-
+    public static int rubleToDollar(int value) {
+        int rsl = value / 60;
+        return rsl;
     }
 
+    public static void main(String[] args) {
+        int euro = Converter.rubleToEuro(280);
+        System.out.println("280 rubles are " + euro + " euro.");
+
+        int dollar = Converter.rubleToDollar(180);
+        System.out.println("180 rubles are " + dollar + " dollar.");
+    }
 }
