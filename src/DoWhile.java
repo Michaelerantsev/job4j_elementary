@@ -10,5 +10,6 @@ public class DoWhile {
            value = scanner.nextInt();
        }
        System.out.println("Вы ввели 7.");
+
    }
    }
