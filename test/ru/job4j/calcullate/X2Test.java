@@ -7,7 +7,6 @@ import org.junit.Test;
 
         public class X2Test {
 
-            @SuppressWarnings("checkstyle:MethodParamPad")
             @Test
             public void whenABCXOne() {
 

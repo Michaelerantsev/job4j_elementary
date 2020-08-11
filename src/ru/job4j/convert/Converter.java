@@ -8,7 +8,7 @@ public class Converter {
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(280);
         int in = 280;
-        int expected = 2;
+        int expected = 4;
         int out = rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("280 rubles are " + euro + " euro.");
