@@ -12,8 +12,8 @@ import org.junit.Test;
                 int a = 1;
                 int b = 1;
                 int c = 1;
-                int x = 0;
-                int expected = 1;
+                int x = 1;
+                int expected = 3;
                 int rsl  = X2.calc(a, b, c, x);
                 assertThat(rsl, is(expected));
 
