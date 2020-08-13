@@ -15,9 +15,6 @@ public class ConverterTest {
         Assert.assertEquals(expected, out);
     }
 
-    @Test
-    public void testRubleToEuro() {
-    }
 
     @Test
     public void rubleToDollar() {
