@@ -9,10 +9,10 @@ public class FitTest {
 
     @Test
     public void manWeight() {
-
     }
 
     @Test
     public void womanWeight() {
+
     }
 }
