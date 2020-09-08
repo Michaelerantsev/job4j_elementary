@@ -6,8 +6,8 @@ public class Converter {
         return rsl;
     }
     public static int rubleToDollar(int value) {
-        int rsl = value / 60;
-        return rsl;
+       int rsl = value / 60;
+       return rsl;
     }
 
     public static void main(String[] args) {
