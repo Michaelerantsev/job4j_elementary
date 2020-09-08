@@ -14,11 +14,11 @@ package ru.job4j.ru.job4j.calculator;
     }
 
     public static void main(String[] args) {
-        short height = 187;
+        short height = 180;
         double man = Fit.manWeight(height);
-        System.out.println("Man 187 is " + man);
+        System.out.println("Man 180 is " + man);
         double woman = Fit.womanWeight(height);
-        System.out.println("woman 187 is " + woman);
+        System.out.println("woman 180 is " + woman);
     }
 
 }
